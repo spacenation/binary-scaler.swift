@@ -41,3 +41,35 @@ public prefix func %<T: ScalableUnsignedInteger>(source: UInt32) -> T {
 public prefix func %<T: ScalableUnsignedInteger>(source: UInt64) -> T {
     T(scaling: source)
 }
+
+public prefix func %<T: ScalableUnsignedInteger>(source: UInt8?) -> T? {
+    if let source = source {
+        return T(scaling: source)
+    } else {
+        return nil
+    }
+}
+
+public prefix func %<T: ScalableUnsignedInteger>(source: UInt16?) -> T? {
+    if let source = source {
+        return T(scaling: source)
+    } else {
+        return nil
+    }
+}
+
+public prefix func %<T: ScalableUnsignedInteger>(source: UInt32?) -> T? {
+    if let source = source {
+        return T(scaling: source)
+    } else {
+        return nil
+    }
+}
+
+public prefix func %<T: ScalableUnsignedInteger>(source: UInt64?) -> T? {
+    if let source = source {
+        return T(scaling: source)
+    } else {
+        return nil
+    }
+}
