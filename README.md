@@ -1,3 +1,5 @@
+![ci](https://github.com/spacenation/scale.swift/workflows/ci/badge.svg)
+
 # Binary type scaler for Swift
 
 This SPM package provides custom `%`  prefix operator to scale binary integers proportionality between integer types.
