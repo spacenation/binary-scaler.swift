@@ -1,4 +1,4 @@
-![ci](https://github.com/swift-extensions/scale.swift/workflows/ci/badge.svg)
+![ci](https://github.com/swift-extensions/scale/workflows/ci/badge.svg)
 
 # Binary type scaler for Swift
 
