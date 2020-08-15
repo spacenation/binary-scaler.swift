@@ -1,15 +1,10 @@
-![ci](https://github.com/swift-extensions/scale/workflows/ci/badge.svg)
+![ci](https://github.com/spacenation/binary-scaler.swift/workflows/ci/badge.svg)
 
-# Binary type scaler for Swift
+## Binary scaler for Swift
 
 This SPM package provides custom `%`  prefix operator to scale binary integers proportionality between integer types.
 
-- Works with UInt8, Unt16, UInt32, UInt64
-- Works with Float and Double
-- Fast conversion with binary shifting
-- Scaling up and down
-
-## Unsigned Integers
+### Unsigned Integers
 ```swift
 let result: UInt16 = %UInt8(255)
 /// Result is 65535
@@ -18,7 +13,7 @@ let result: UInt16 = %UInt8(128)
 /// Result is 32896
 ```
 
-## Floating Points
+### Floating Points
 ```swift
 let result: UInt8 = %0.5
 /// Result is 127
