@@ -1,4 +1,4 @@
-![ci](https://github.com/spacenation/binary-scaler.swift/workflows/ci/badge.svg)
+![ci](https://github.com/spacenation/swift-binary-scaler/workflows/ci/badge.svg)
 
 ## Binary scaler for Swift
 
